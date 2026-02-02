@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6962fb5-3937-42f4-8e1a-71c2d8e2fb23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/CheckConnectionBackend/CheckConnectionBackend.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/CheckConnectionBackend/CheckConnectionBackend.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/router/RootLayout.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/api/ConnectionApiTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/Navbar/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/router/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/router/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/router/RootLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/router/RootLayout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +35,10 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="396vjFCfC1Ks2jCnu5y3WEJoozo" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,7 +54,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "feature/navbar-components",
+    "git-widget-placeholder": "feature/footer-components",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "C:\\Users\\Evan\\Documents\\AlgalonWoW\\algalonwow_frontend\\node_modules\\typescript\\lib",

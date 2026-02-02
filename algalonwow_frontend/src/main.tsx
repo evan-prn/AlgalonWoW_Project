@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import MyRouter         from "./router/MyRouter.tsx"
+import MyRouter       from "./router/MyRouter.tsx"
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

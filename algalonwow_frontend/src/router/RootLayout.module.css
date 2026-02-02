@@ -1,0 +1,11 @@
+.layoutContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #120a05; /* ambiance WoW */
+}
+
+.layoutContent {
+    flex: 1;
+    padding: 2rem;
+}
