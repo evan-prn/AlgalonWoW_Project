@@ -18,7 +18,7 @@ const myRoutes: RouteObject[] = [
                 path: "connection-backend-test",
                 element: <ConnectionApiTest />,
                 errorElement: <h1>Error</h1>
-            }
+            },
         ]
     }
 ]

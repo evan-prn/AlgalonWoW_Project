@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6962fb5-3937-42f4-8e1a-71c2d8e2fb23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/api/ConnectionApiTest.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/router/MyRouter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/router/RootLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/router/routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/Navbar/Navbar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/Navbar/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/router/RootLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/router/RootLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/router/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/router/routes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,7 @@
         <option value="PHP File" />
         <option value="Dockerfile" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -55,7 +50,8 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "feature/react-router-setup",
+    "git-widget-placeholder": "feature/navbar-components",
+    "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "C:\\Users\\Evan\\Documents\\AlgalonWoW\\algalonwow_frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -76,11 +72,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770029468212</updated>
-      <workItem from="1770029470935" duration="6450000" />
+      <workItem from="1770029470935" duration="7760000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
