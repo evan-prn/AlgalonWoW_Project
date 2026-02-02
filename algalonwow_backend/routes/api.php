@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\WowController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/ping', function () {
@@ -9,3 +10,5 @@ Route::get('/ping', function () {
             'status' => 'ok',
         ]);
 });
+
+Route::get('/wow/classes', [WowController::class, 'classes']);

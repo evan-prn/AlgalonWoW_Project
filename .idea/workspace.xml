@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6962fb5-3937-42f4-8e1a-71c2d8e2fb23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/CheckConnectionBackend/CheckConnectionBackend.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/CheckConnectionBackend/CheckConnectionBackend.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_backend/app/Services/BlizzardApiService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_backend/config/blizzard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/Classes/ClassesCard/ClassesCard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/Classes/ClassesCard/ClassesCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/Classes/ClassesList/ClassesList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/Classes/ClassesList/ClassesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/api/ConnectionApiTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algalonwow_backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_backend/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/router/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/router/routes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="PHP File" />
         <option value="Dockerfile" />
+        <option value="PHP File" />
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
       </list>
@@ -33,7 +36,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.2" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
@@ -54,13 +57,19 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "feature/navbar-components",
+    "git-widget-placeholder": "api/wow-api-setup",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "C:\\Users\\Evan\\Documents\\AlgalonWoW\\algalonwow_frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Evan\Documents\AlgalonWoW\algalonwow_frontend\src\components\Classes\ClassesList" />
+      <recent name="C:\Users\Evan\Documents\AlgalonWoW\algalonwow_frontend\src\components\Classes" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770029468212</updated>
-      <workItem from="1770029470935" duration="8719000" />
+      <workItem from="1770029470935" duration="11841000" />
     </task>
     <servers />
   </component>
@@ -94,7 +103,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature/navbar-components" />
+                        <option value="AlgalonWoW_Project/feature/navbar-components" />
                       </list>
                     </value>
                   </entry>
