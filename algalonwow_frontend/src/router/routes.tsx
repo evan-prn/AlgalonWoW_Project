@@ -1,7 +1,6 @@
 import type { RouteObject } from "react-router-dom";
 import RootLayout           from "./RootLayout.tsx";
 import App                  from "../App.tsx";
-import ConnectionApiTest    from '../api/ConnectionApiTest.tsx';
 
 const myRoutes: RouteObject[] = [
     {
@@ -13,11 +12,21 @@ const myRoutes: RouteObject[] = [
                 index: true,
                 element: <App />
             },
-
-            {   // route de test connection vers l'api du backend
-                path: "connection-backend-test",
-                element: <ConnectionApiTest />,
-                errorElement: <h1>Error</h1>
+            {
+                path: "classes"
+                // TODO : element for 'classes'
+            },
+            {
+                path: "talents"
+                // TODO : element for 'talents'
+            },
+            {
+                path: "guides"
+                // TODO : element for 'guides'
+            },
+            {
+                path: "forum"
+                // TODO : element for 'forum'
             },
         ]
     }

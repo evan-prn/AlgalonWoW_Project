@@ -1,0 +1,22 @@
+.statusContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #2e1f0f;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #c9a74e;
+    border-radius: 6px;
+    font-family: 'Cinzel', serif;
+    font-size: 0.95rem;
+    color: #f5e6c4;
+    box-shadow: 0 0 5px #000;
+}
+
+.statusLabel {
+    font-weight: bold;
+    color: #c9a74e;
+}
+
+.statusValue {
+    color: #e0d8b0;
+}

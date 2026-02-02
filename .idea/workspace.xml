@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6962fb5-3937-42f4-8e1a-71c2d8e2fb23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/Navbar/Navbar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/CheckConnectionBackend/CheckConnectionBackend.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/CheckConnectionBackend/CheckConnectionBackend.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/router/RootLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/router/RootLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/api/ConnectionApiTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/components/Navbar/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/router/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/router/routes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.2" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 6
@@ -72,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770029468212</updated>
-      <workItem from="1770029470935" duration="7760000" />
+      <workItem from="1770029470935" duration="8719000" />
     </task>
     <servers />
   </component>
@@ -84,7 +88,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/navbar-components" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
