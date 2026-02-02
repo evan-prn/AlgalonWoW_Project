@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6962fb5-3937-42f4-8e1a-71c2d8e2fb23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algalonwow_backend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770029468212</updated>
-      <workItem from="1770029470935" duration="2804000" />
+      <workItem from="1770029470935" duration="4013000" />
     </task>
     <servers />
   </component>
