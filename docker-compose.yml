@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./algalonwow_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./algalonwow_backend:/var/www/html
+
+  frontend:
+    build: ./algalonwow_frontend
+    ports:
+      - "3000:5173"
+    volumes:
+      - ./algalonwow_frontend:/app
+      - /app/node_modules

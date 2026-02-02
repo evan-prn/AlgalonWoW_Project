@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6962fb5-3937-42f4-8e1a-71c2d8e2fb23" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_backend/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_backend/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_backend/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_backend/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_backend/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_backend/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/vite.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algalonwow_frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algalonwow_backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algalonwow_frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/algalonwow_frontend/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="PHP File" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -41,6 +35,9 @@
   "associatedIndex": 6
 }]]></component>
   <component name="ProjectId" id="396vjFCfC1Ks2jCnu5y3WEJoozo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,6 +46,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "master",
@@ -72,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770029468212</updated>
-      <workItem from="1770029470935" duration="1898000" />
+      <workItem from="1770029470935" duration="2804000" />
     </task>
     <servers />
   </component>
