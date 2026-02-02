@@ -1,0 +1,48 @@
+# version: '3.8'
+
+services:
+
+  # Backend: Laravel
+  algalonwow_backend:
+    build:
+      context: ./algalonwow_backend
+      dockerfile: Dockerfile
+    container_name: algalonwow_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./algalonwow_backend:/var/www/html
+    depends_on:
+      - algalonwow_database
+
+  # Frontend: React + Vite
+  algalonwow_frontend:
+    build:
+      context: ./algalonwow_frontend
+      dockerfile: Dockerfile
+    container_name: algalonwow_frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./algalonwow_frontend:/app
+      - /app/node_modules
+    stdin_open: true
+    tty: true
+
+  # Base de données
+  algalonwow_database:
+    image: mysql:8.0
+    container_name: algalonwow_database
+    restart: always
+    environment:
+      MYSQL_DATABASE: algalonwow
+      MYSQL_ROOT_PASSWORD: $$algalonwow_admin81500$$
+      MYSQL_USER: algaonwow_user
+      MYSQL_PASSWORD: $$algalonwow$$
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:

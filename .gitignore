@@ -1,0 +1,12 @@
+# Docker
+.env
+db_data/
+
+# Backend
+algalonwow_backend/vendor/
+algalonwow_backend/.env
+algalonwow_backend/storage/*.key
+
+# Frontend
+algalonwow_frontend/node_modules/
+algalonwow_frontend/dist/
