@@ -1,21 +1,10 @@
-import { useEffect, useState } from "react";
-
 function App() {
-    const [apiStatus, setApiStatus] = useState<string>("Loading...");
-
-    useEffect(() => {
-        fetch("http://127.0.0.1:8000/api/ping")
-            .then((res) => res.json())
-            .then((data) => setApiStatus(`${data.app} - ${data.status}`))
-            .catch(() => setApiStatus("Erreur de connexion à l'API"));
-    }, []);
 
     return (
-        <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-            <h1>AlgalonWoW Frontend</h1>
-            <p>Backend status : {apiStatus}</p>
-        </div>
-    );
+            <>
+                <h1>AlgalonWoW</h1>
+            </>
+        );
 }
 
 export default App;
